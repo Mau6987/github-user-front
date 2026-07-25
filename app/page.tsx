@@ -95,10 +95,7 @@ export default function Home() {
               {status === 'loading' ? 'buscando…' : 'ejecutar'}
             </button>
           </div>
-          <div className="hint">
-            Enter para buscar · datos servidos por tu API NestJS en{' '}
-            {BACKEND_URL.replace(/^https?:\/\//, '')}
-          </div>
+          
         </div>
       </form>
 
